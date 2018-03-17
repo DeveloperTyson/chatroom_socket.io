@@ -10,7 +10,7 @@ $ npm install
 $ npm start
 ```
 
-And point your browser to `http://localhost:8080`. Optionally, specify
+And point your browser to `http://localhost:80`. Optionally, specify
 a port by supplying the `PORT` env variable.
 
 ## Features
