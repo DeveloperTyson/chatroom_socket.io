@@ -1,0 +1,46 @@
+<!doctype html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link media="screen" href="http://openfontlibrary.org/face/segoe-ui-symbol" rel="stylesheet" type="text/css"/>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul class="pages">
+    <div class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+        <div class="inputArea">
+          <input class="inputMessage col-10 col-sm-11" placeholder="Type here..."/>
+          <button id="sendBtn" type="button" class="btn btn-success col-2 col-sm-1">Send</button>
+        </div>
+      </div>
+    </div>
+    <div class="login page">
+      <div class="form">
+        <h3 class="title">What's your nickname?</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+        <button id="usernameBtn" type="button" class="btn btn-success">Enter</button>
+      </div>
+    </div>
+    <div class="roomList page" id="rooms">
+      <input class="search" placeholder="Search" />
+      <button id="createBtn" type="button" class="btn btn-outline-success">Create</button>
+      <ul class="list col-11 col-sm-4">
+      </ul>
+    </div>
+  </ul>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+</body>
+</html>

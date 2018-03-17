@@ -1,0 +1,22 @@
+{
+  "name": "chatroom_socket.io",
+  "version": "1.0.0",
+  "description": " NodeJS + MongoDB chatroom application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://CheungTai@bitbucket.org/CheungTai/chatroom_socket.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/CheungTai/chatroom_socket.io#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.4",
+    "socket.io": "^2.0.4"
+  }
+}
